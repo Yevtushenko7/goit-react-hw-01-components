@@ -1,0 +1,23 @@
+.StatsTitle {
+  font-weight: 700;
+  text-align: center;
+}
+
+.StatList {
+  display: flex;
+  /* padding-inline-start: 200px; */
+}
+
+.StatItem {
+  list-style: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px;
+  background-color: rgba(0, 0, 255, 0.9);
+  width: 280px;
+  text-align: center;
+}
+
+.StatItem + .StatItem {
+  margin-left: 10px;
+}
